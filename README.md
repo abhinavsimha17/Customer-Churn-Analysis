@@ -2,8 +2,6 @@
 
 A telecom company is losing about 1 in 4 customers. This project predicts which customers are likely to leave. It then goes beyond model accuracy to answer the business question: **which customers should the retention team contact first, and how much revenue would that save?**
 
-![Revenue saved](figures/revenue_saved.png)
-
 ## Dataset
 
 This project uses the [Telco Customer Churn dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) from Kaggle (IBM sample data). It has 7,043 customers and 21 columns covering contract, services, billing and whether the customer left.
@@ -21,7 +19,6 @@ This project uses the [Telco Customer Churn dataset](https://www.kaggle.com/data
 | 3 | Month-to-month, 25–48 months, fibre | 521 | 45% | 16% |
 | 4 | Month-to-month, 0–12 months, DSL | 690 | 39% | 9% |
 
-![Priority segments](figures/priority_segments.png)
 
 ## What I did
 
@@ -31,8 +28,6 @@ This project uses the [Telco Customer Churn dataset](https://www.kaggle.com/data
 4. **Turned predictions into money:** revenue at risk = chance of leaving × yearly bill.
 5. **Ranked segments** that the retention team can act on directly.
 6. **Estimated revenue saved** from a retention campaign, compared with random targeting, and tested how the result changes under different assumptions.
-
-![What drives churn](figures/churn_drivers.png)
 
 ## Assumptions for the revenue estimate
 
